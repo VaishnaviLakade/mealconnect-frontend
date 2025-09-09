@@ -34,7 +34,7 @@ export default function App() {
           <Route path="/profile" element={<Profile />} />
           <Route path="/user-request" element={<RequestFood />} />
 
-          {/* ✅ PERSISTENT DONOR DASHBOARD WITH NESTED ROUTES */}
+          {/*  PERSISTENT DONOR DASHBOARD WITH NESTED ROUTES */}
           <Route path="/dashboard" element={<Dashboard />}>
             <Route index element={<DonateFood />} /> {/* Default Section */}
             <Route path="donate" element={<DonateFood />} />
@@ -45,7 +45,7 @@ export default function App() {
             <Route path="analytics" element={<Analytics />} />
           </Route>
 
-          {/* ✅ USER DASHBOARD WITH POSSIBLE NESTED ROUTES (IF NEEDED) */}
+          {/*  USER DASHBOARD WITH POSSIBLE NESTED ROUTES (IF NEEDED) */}
           <Route path="/user-dashboard" element={<UDashboard />}>
             {/* Add nested user dashboard sections here if required */}
           </Route>
