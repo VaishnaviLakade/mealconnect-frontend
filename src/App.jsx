@@ -8,7 +8,7 @@ import UDashboard from "./pages/UDashboard"; // User Dashboard
 import DonateFood from "./pages/Donatefood";
 import Findfood from "./pages/Findfood";
 import Landing from "./pages/Landing";
-import Chatbot from "./components/chatbot";
+import Chatbot from "./components/Chatbot";
 import Profile from "./pages/Profile";
 import Navbar from "./components/Navbar";
 import RequestFood from "./pages/request";
