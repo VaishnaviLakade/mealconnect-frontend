@@ -12,7 +12,7 @@ import Chatbot from "./components/Chatbot";
 import Profile from "./pages/Profile";
 import Navbar from "./components/Navbar";
 import RequestFood from "./pages/request";
-import CurrentDonation from "./pages/current_donation";
+import CurrentDonation from "./pages/Current_donation";
 import PastDonations from "./pages/Past_donation";
 import Rewards from "./pages/Rewards";
 import Analytics from "./pages/Analytics";
